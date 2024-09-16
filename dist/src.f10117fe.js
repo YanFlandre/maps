@@ -22723,6 +22723,7 @@ exports.Company = Company;
 },{"@faker-js/faker":"node_modules/@faker-js/faker/dist/esm/index.mjs"}],"src/index.ts":[function(require,module,exports) {
 "use strict";
 
+/// <reference types="@types/google.maps" />
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -22757,7 +22758,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57758" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59116" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
